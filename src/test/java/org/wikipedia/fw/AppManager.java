@@ -19,7 +19,7 @@ public class AppManager {
 
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("platformVersion", "8.0.0");
-        capabilities.setCapability("deviceName", "qa14_mob");
+        capabilities.setCapability("deviceName", "qa14_mob2");
         capabilities.setCapability("automationName", "Appium");
         capabilities.setCapability("appPackage", "org.wikipedia");
         capabilities.setCapability("appActivity", ".main.MainActivity");

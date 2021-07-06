@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.wikipedia.tests.OpenAppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-06T10:55:35" hostname="enextus" time="0.001">
+  <properties/>
+  <testcase name="testLaunchApp" classname="org.wikipedia.tests.OpenAppTest" time="0.001"/>
+  <system-out><![CDATA[app launch
+]]></system-out>
+  <system-err><![CDATA[Jul 06, 2021 12:55:35 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

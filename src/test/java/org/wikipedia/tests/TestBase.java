@@ -1,9 +1,8 @@
 package org.wikipedia.tests;
 
+import org.wikipedia.fw.AppManager;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.wikipedia.fw.AppManager;
-
 
 import java.net.MalformedURLException;
 

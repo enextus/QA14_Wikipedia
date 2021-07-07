@@ -19,7 +19,6 @@ public class AppManager {
         return article;
     }
 
-
     public void init() throws MalformedURLException {
         capabilities = new DesiredCapabilities();
 
@@ -36,7 +35,6 @@ public class AppManager {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         article = new ArticleHelper(driver);
-
     }
 
     public void stop() {

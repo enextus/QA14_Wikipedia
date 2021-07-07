@@ -8,4 +8,5 @@ public class OpenAppTest extends TestBase {
     public void testLaunchApp() {
         System.out.println("app launch");
     }
+
 }

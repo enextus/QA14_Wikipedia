@@ -13,7 +13,6 @@ public class ArticleTest extends TestBase{
         app.getArticle().close();
 
         // remove from favorites
-
-
     }
+
 }

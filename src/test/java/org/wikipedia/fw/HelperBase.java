@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HelperBase {
+
     AppiumDriver driver;
 
     public HelperBase(AppiumDriver driver) {
@@ -42,14 +43,14 @@ public class HelperBase {
         return driver.findElements(locator).size() > 0;
     }
 
-    public void waiForElementAndTap(By locator, int timeOut) {
+    public void waitForElementAndTap(By locator, int timeOut) {
         new WebDriverWait(driver, timeOut)
                 .until(ExpectedConditions.presenceOfElementLocated(locator)).click();
     }
 
     public void waitForElementAndType(By locator, int timeOut, String text) {
         if (text != null) {
-            waiForElementAndTap(locator, timeOut);
+            waitForElementAndTap(locator, timeOut);
             driver.findElement(locator).clear();
             driver.findElement(locator).sendKeys(text);
         }
